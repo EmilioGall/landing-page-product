@@ -1,0 +1,42 @@
+/******************** Style Variables ********************/
+/*********************************************************/
+
+:root {
+
+   --black-p: rgba(0, 0, 0, 1);
+   --white-p: rgba(255, 255, 255, 1);
+
+   --darkgrey-p: rgba(62, 58, 55, 1);
+   --blue-p: rgba(47, 69, 204, 1);
+   --green-p: rgba(4, 223, 107, 1);
+
+   --header-h: 5rem;
+
+}
+
+/******************** Custom Style ********************/
+/******************************************************/
+
+img {
+
+   max-width: 100%;
+
+}
+
+header {
+
+   height: var(--header-h);
+   background-color: aqua;
+
+   img {
+      height: calc(var(--header-h) - 1rem);
+   }
+
+}
+
+main {
+
+   margin-top: calc(var(--header-h) + 20px);
+   background-color: blueviolet;
+
+}
