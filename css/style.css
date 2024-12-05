@@ -7,6 +7,7 @@
    --white-p: rgba(255, 255, 255, 1);
 
    --darkgrey-p: rgba(62, 58, 55, 1);
+   --lightgrey-p: rgba(248, 248, 248, 1);
    --blue-p: rgba(47, 69, 204, 1);
    --green-p: rgba(4, 223, 107, 1);
 
@@ -85,6 +86,18 @@ main {
             background: var(--darkgrey-p);
 
          }
+      }
+
+   }
+
+   #ducks {
+
+      background: var(--lightgrey-p);
+
+      .ms-text-price {
+
+         color: var(--green-p);
+
       }
 
    }
