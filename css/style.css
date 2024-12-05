@@ -28,6 +28,10 @@ a {
    cursor: pointer;
 }
 
+ul {
+   list-style-type: none;
+}
+
 
 /******************** Fonts ********************/
 /***********************************************/
@@ -97,6 +101,16 @@ main {
       .ms-text-price {
 
          color: var(--green-p);
+
+      }
+
+   }
+
+   #faqs {
+
+      .ms-text-plus {
+
+         color: var(--blue-p);
 
       }
 
